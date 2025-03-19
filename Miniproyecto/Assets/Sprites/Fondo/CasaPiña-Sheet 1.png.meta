@@ -1,0 +1,1007 @@
+fileFormatVersion: 2
+guid: 8ba9843f8584054419525a33154b77ce
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046c1a7689ef08f41aaccc56ef08af9a
+      internalID: -1001281029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_1"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 720
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e3b1effc6cba94489998e06d05cb33
+      internalID: 2017340062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_2"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 720
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff0d65945f35b840b752f7bb329b70c
+      internalID: -1959598403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_3"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 720
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbdaf020a3dd7f438c972aeecd9c366
+      internalID: -216848324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_4"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 720
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f43515c54b16040bb809d939bfff7f
+      internalID: 964625595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_5"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 720
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c80992976bb5bc4c84a908a0ee813b4
+      internalID: 13622542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_6"
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 720
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b29c38aa557d964385d470bec6b62a4
+      internalID: 1543770418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_7"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df27b9a1b23e7ba40bcd4a9bc1c55486
+      internalID: 1485973038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_8"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 576
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1d4ba1f87b63448b9900eea318f219
+      internalID: 1918798990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_9"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3baecd8034736c7498c9eba7d6a6b2f1
+      internalID: 600346884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_10"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edc32b52a6f94a4083264f44a76cee5
+      internalID: -565384957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_11"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d63bfdaa586524438f97efff1974361
+      internalID: 890678110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_12"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 576
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74571948ce1419f4cb2831768bbf7a4e
+      internalID: 1759907187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_13"
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 576
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c99f18b675389c4196846719927c7fc
+      internalID: 585624807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_14"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc089a60847828d4fbde8ac6143420e4
+      internalID: 536029867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_15"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 432
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de9b518432e38f4badee19993444045
+      internalID: -295087963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_16"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 432
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e2befcb85702944ad726eb3bbf481f
+      internalID: -1691367541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_17"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 432
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1089500cd70778b45900b07638d5b590
+      internalID: -2145597086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_18"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 432
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242f4096b83c1e5449cf49e5e5f423ee
+      internalID: -440418261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_19"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 432
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f011fcd427645645a14bbd8beaaf816
+      internalID: -1758551157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_20"
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 432
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b597813b8c59f4d4a8b447813da53383
+      internalID: 1755470142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_21"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6955e6253e775cf49b60556a99f8a7d4
+      internalID: -1231020423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_22"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69803fa83cffe38479ac3ff897e05777
+      internalID: 125205679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_23"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f210464d0b2bbac4eba6c4f5aeff5511
+      internalID: 1303008543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_24"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dfb7b397b14da45be5d01b80c96301
+      internalID: 1530432604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_25"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 288
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f472160b0b1d0554494716182b5534f5
+      internalID: -86973547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_26"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 288
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7496dd165398ac94aa186f8d37566964
+      internalID: -1280537665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_27"
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 288
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65027e7593f790f4292e146ec99da5c8
+      internalID: 1970188041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_28"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5679b315bc1da8445b7950f2a832bc89
+      internalID: 973749729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_29"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0855a45943855c144b0941ec814f950a
+      internalID: 1240864072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_30"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 144
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38479b4294ff9f04b801ea51e5771b79
+      internalID: 1256241575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_31"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 144
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2296e745290824486566740e0a3250
+      internalID: 1067248269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_32"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 144
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c450905d88551604991318363413dbca
+      internalID: 1183719418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_33"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 144
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069865431a67d0542ba592d01dd8b0b7
+      internalID: 434462754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_34"
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 144
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f11f03fc94f4d9498edc83c5c07fe28
+      internalID: -1958455605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_35"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2774af506a3237044b15807f6b7bd615
+      internalID: 425847710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_36"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653518c4e650c5746a662975047473f1
+      internalID: 767444894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_37"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750c4c83ac9357249b1e610cce54de31
+      internalID: 1048757608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_38"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbfabde48ba77248b1e9c5bff4d291b
+      internalID: -358684056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "CasaPi\xF1a-Sheet 1_39"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bc9e5a528ae0346b859493d61ba935
+      internalID: -1829017684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "CasaPi\xF1a-Sheet 1_0": -1001281029
+      "CasaPi\xF1a-Sheet 1_1": 2017340062
+      "CasaPi\xF1a-Sheet 1_10": -565384957
+      "CasaPi\xF1a-Sheet 1_11": 890678110
+      "CasaPi\xF1a-Sheet 1_12": 1759907187
+      "CasaPi\xF1a-Sheet 1_13": 585624807
+      "CasaPi\xF1a-Sheet 1_14": 536029867
+      "CasaPi\xF1a-Sheet 1_15": -295087963
+      "CasaPi\xF1a-Sheet 1_16": -1691367541
+      "CasaPi\xF1a-Sheet 1_17": -2145597086
+      "CasaPi\xF1a-Sheet 1_18": -440418261
+      "CasaPi\xF1a-Sheet 1_19": -1758551157
+      "CasaPi\xF1a-Sheet 1_2": -1959598403
+      "CasaPi\xF1a-Sheet 1_20": 1755470142
+      "CasaPi\xF1a-Sheet 1_21": -1231020423
+      "CasaPi\xF1a-Sheet 1_22": 125205679
+      "CasaPi\xF1a-Sheet 1_23": 1303008543
+      "CasaPi\xF1a-Sheet 1_24": 1530432604
+      "CasaPi\xF1a-Sheet 1_25": -86973547
+      "CasaPi\xF1a-Sheet 1_26": -1280537665
+      "CasaPi\xF1a-Sheet 1_27": 1970188041
+      "CasaPi\xF1a-Sheet 1_28": 973749729
+      "CasaPi\xF1a-Sheet 1_29": 1240864072
+      "CasaPi\xF1a-Sheet 1_3": -216848324
+      "CasaPi\xF1a-Sheet 1_30": 1256241575
+      "CasaPi\xF1a-Sheet 1_31": 1067248269
+      "CasaPi\xF1a-Sheet 1_32": 1183719418
+      "CasaPi\xF1a-Sheet 1_33": 434462754
+      "CasaPi\xF1a-Sheet 1_34": -1958455605
+      "CasaPi\xF1a-Sheet 1_35": 425847710
+      "CasaPi\xF1a-Sheet 1_36": 767444894
+      "CasaPi\xF1a-Sheet 1_37": 1048757608
+      "CasaPi\xF1a-Sheet 1_38": -358684056
+      "CasaPi\xF1a-Sheet 1_39": -1829017684
+      "CasaPi\xF1a-Sheet 1_4": 964625595
+      "CasaPi\xF1a-Sheet 1_5": 13622542
+      "CasaPi\xF1a-Sheet 1_6": 1543770418
+      "CasaPi\xF1a-Sheet 1_7": 1485973038
+      "CasaPi\xF1a-Sheet 1_8": 1918798990
+      "CasaPi\xF1a-Sheet 1_9": 600346884
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,76 @@
+{
+    "name": "Cangrejo Inputs",
+    "maps": [
+        {
+            "name": "Cangrejo",
+            "id": "a03af2c4-c906-4628-ac46-18c7b1afa63d",
+            "actions": [
+                {
+                    "name": "Movimiento",
+                    "type": "PassThrough",
+                    "id": "109546c1-3f4e-47ed-81bb-eef45cad1dbb",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Salto",
+                    "type": "Button",
+                    "id": "1ca4849b-039c-4cf3-81d1-9f26d01b1364",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "WASD",
+                    "id": "032e63a6-08ad-400e-85f5-b2f5b686a6e8",
+                    "path": "2DVector(mode=2)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimiento",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "ad5c1f68-f499-4a81-b4c3-1a40ee9acdaf",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimiento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "36749fae-8660-4b47-ba54-8181efde43fe",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimiento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "d57ed69d-e56b-4708-8cc7-883cc5268bf7",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Salto",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

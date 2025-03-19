@@ -1,0 +1,575 @@
+fileFormatVersion: 2
+guid: 7a98244250c941848bbc7216c7087f96
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Torpedo-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157e17fbcb7eb69478de89e098d9cb14
+      internalID: 1431399211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torpedo-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ee1f40fe15903488eb979c674f68bc
+      internalID: 1210451378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torpedo-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e3daa29273f144ea52ace5de73afed
+      internalID: 1864176600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torpedo-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0235f5ac544c90d4dbafa3378c6140f5
+      internalID: 295863332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torpedo-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470c49f79c449bd45a87dfb8301c6604
+      internalID: -1868059009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torpedo-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b0f8c028b30ff40a74f56ad6329a9d
+      internalID: -1501458346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torpedo-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f403f1e54d706548b9db856ed546f06
+      internalID: -1723535490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torpedo-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5990baf3aacc64bb1f2c41179abe8a
+      internalID: -761520592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torpedo-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00b173ee83cb5e4a8cc5202af0ce438
+      internalID: -1673222239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torpedo-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: febbf6067329353409617b4d69f5bd2c
+      internalID: -1748332910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torpedo-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5197029a03a84d4abd20ad3b1504a77
+      internalID: -2044560929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torpedo-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b2c80d288424a45a132ab2b7a5bff8
+      internalID: 261907664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torpedo-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae2cdd55c8fbf04391aa737b9fd377e
+      internalID: 2104210579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torpedo-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e555ff54ea9c184b9447eec9b221557
+      internalID: 710356459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torpedo-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab7fccce15b4664f9a23bf9696bd9d2
+      internalID: 575138587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torpedo-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: -2, y: -16}
+        - {x: -4, y: -14}
+        - {x: -4, y: 13}
+        - {x: 4, y: 13}
+        - {x: 4, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31a36ff8cd254d44badfbd174126a0b
+      internalID: 1163258749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Torpedo-Sheet_0: 1431399211
+      Torpedo-Sheet_1: 1210451378
+      Torpedo-Sheet_10: -2044560929
+      Torpedo-Sheet_11: 261907664
+      Torpedo-Sheet_12: 2104210579
+      Torpedo-Sheet_13: 710356459
+      Torpedo-Sheet_14: 575138587
+      Torpedo-Sheet_15: 1163258749
+      Torpedo-Sheet_2: 1864176600
+      Torpedo-Sheet_3: 295863332
+      Torpedo-Sheet_4: -1868059009
+      Torpedo-Sheet_5: -1501458346
+      Torpedo-Sheet_6: -1723535490
+      Torpedo-Sheet_7: -761520592
+      Torpedo-Sheet_8: -1673222239
+      Torpedo-Sheet_9: -1748332910
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
