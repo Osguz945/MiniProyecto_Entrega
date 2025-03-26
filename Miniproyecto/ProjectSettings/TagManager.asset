@@ -9,6 +9,7 @@ TagManager:
   - Crab
   - Enemigo
   - Suelo
+  - NextLevel
   layers:
   - Default
   - TransparentFX

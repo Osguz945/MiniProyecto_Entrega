@@ -9,17 +9,23 @@ public class PlayerController : MonoBehaviour
     public float speed = 5f;
     public float sprintSpeed = 8f;
     public float jumpForce = 7f;
-    public int vidas = 3; // Valor inicial por defecto
+    public int vidas = 3;
 
     private Rigidbody2D rb;
-    private bool isGrounded;
+    public Animator animator;
     private TextMeshProUGUI vidaText;
+
+    public LayerMask queEsSuelo;
+    public Transform controladorSuelo;
+    public Vector3 dimensionesCaja;
+    public bool enSuelo;
+    private bool mirandoDerecha = true;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
 
-        // Cargar vidas guardadas
         if (PlayerPrefs.HasKey("Vidas"))
         {
             vidas = PlayerPrefs.GetInt("Vidas");
@@ -29,7 +35,6 @@ public class PlayerController : MonoBehaviour
             PlayerPrefs.SetInt("Vidas", vidas);
         }
 
-        // Buscar el texto en el Canvas
         GameObject vidaObj = GameObject.Find("VidaText");
         if (vidaObj != null)
         {
@@ -44,26 +49,48 @@ public class PlayerController : MonoBehaviour
         float moveSpeed = Input.GetKey(KeyCode.O) ? sprintSpeed : speed;
         rb.velocity = new Vector2(move * moveSpeed, rb.velocity.y);
 
-        if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && enSuelo)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            animator.SetTrigger("Jump");
+        }
+
+        enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, queEsSuelo);
+
+        // Control de animaciones
+        if (move == 0)
+        {
+            animator.SetBool("Walk", false);
+            animator.SetBool("Run", false);
+        }
+        else if (Input.GetKey(KeyCode.O))
+        {
+            animator.SetBool("Walk", false);
+            animator.SetBool("Run", true);
+        }
+        else
+        {
+            animator.SetBool("Walk", true);
+            animator.SetBool("Run", false);
+        }
+
+        // Girar el personaje según la dirección del movimiento
+        if (move > 0 && !mirandoDerecha)
+        {
+            Girar();
+        }
+        else if (move < 0 && mirandoDerecha)
+        {
+            Girar();
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void Girar()
     {
-        if (collision.gameObject.CompareTag("Suelo"))
-        {
-            isGrounded = true;
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Suelo"))
-        {
-            isGrounded = false;
-        }
+        mirandoDerecha = !mirandoDerecha;
+        Vector3 escala = transform.localScale;
+        escala.x *= -1;
+        transform.localScale = escala;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -71,7 +98,7 @@ public class PlayerController : MonoBehaviour
         if (collision.CompareTag("Enemigo"))
         {
             vidas--;
-            PlayerPrefs.SetInt("Vidas", vidas); // Guardar vidas actualizadas
+            PlayerPrefs.SetInt("Vidas", vidas);
             ActualizarVidaText();
 
             if (vidas <= 0)
@@ -80,7 +107,7 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Recargar escena sin reiniciar vidas
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
         }
     }
@@ -95,7 +122,13 @@ public class PlayerController : MonoBehaviour
 
     void ReiniciarJuego()
     {
-        PlayerPrefs.DeleteKey("Vidas"); // Resetear vidas
-        SceneManager.LoadScene("Menu"); // Reiniciar el juego desde la primera escena
+        PlayerPrefs.DeleteKey("Vidas");
+        SceneManager.LoadScene("GameOver");
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
     }
 }
