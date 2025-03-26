@@ -13,7 +13,7 @@ public class Paralax : MonoBehaviour
     private void Awake()
     {
         material = GetComponent<SpriteRenderer>().material;
-        jugadorTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        jugadorTransform = GameObject.FindGameObjectWithTag("Crab").transform;
         ultimaPosicion = jugadorTransform.position;
     }
     private void Update()
