@@ -60,7 +60,6 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow) && enSuelo)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            animator.SetTrigger("Jump");
             audioSource.PlayOneShot(jumpClip);
         }
 
@@ -112,16 +111,6 @@ public class PlayerController : MonoBehaviour
         else if (move < 0 && mirandoDerecha)
         {
             Girar();
-        }
-        if (Input.GetKeyDown(KeyCode.P) && algaDetectada != null)
-        {
-            Destroy(algaDetectada); 
-            algaDetectada = null;
-        }
-        if (Input.GetKeyDown(KeyCode.Space) && Mathf.Approximately(rb.velocity.y, 0))
-        {
-            rb.velocity = new Vector2(rb.velocity.x, 10f); // Fuerza del salto
-            audioSource.PlayOneShot(jumpClip); // Reproducir sonido
         }
     }
 
@@ -175,19 +164,7 @@ public class PlayerController : MonoBehaviour
     {
         animator.SetBool("Corte", false);
     }
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Alga"))
-        {
-            algaDetectada = collision.gameObject; // Guarda la alga detectada
-        }
-    }
+    
+    
 
-    void OnCollisionExit(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Alga"))
-        {
-            algaDetectada = null; // Borra la referencia cuando sale de la colisión
-        }
-    }
 }

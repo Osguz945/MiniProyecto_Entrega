@@ -11,7 +11,7 @@ public class Peces : MonoBehaviour
     private void Awake()
     {
         material = GetComponent<SpriteRenderer>().material;
-        jugadorRB = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
+        jugadorRB = GameObject.FindGameObjectWithTag("Crab").GetComponent<Rigidbody2D>();
     }
     private void Update()
     {
