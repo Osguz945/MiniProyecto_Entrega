@@ -190,7 +190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   sprintSpeed: 8
-  jumpForce: 7.78
+  jumpForce: 9.18
   vidas: 3
   Corte: 0
   animator: {fileID: 3332876283708400202}
