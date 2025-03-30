@@ -71,6 +71,8 @@ public class PlayerController : MonoBehaviour
         else if (Input.GetKey(KeyCode.P)&& animator.GetBool("Corte") == false)
         {
             animator.SetBool("Corte", true);
+            animator.SetBool("Walk", false);
+            animator.SetBool("Run", false);
         }
         else
         {

@@ -10,6 +10,7 @@ TagManager:
   - Enemigo
   - Suelo
   - NextLevel
+  - Alga
   layers:
   - Default
   - TransparentFX
