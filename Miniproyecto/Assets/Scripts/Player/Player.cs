@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float sprintSpeed = 8f;
     public float jumpForce = 7f;
     public int vidas = 3;
+    public bool Corte = false;
 
     private Rigidbody2D rb;
     public Animator animator;
@@ -56,7 +57,6 @@ public class PlayerController : MonoBehaviour
         }
 
         enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, queEsSuelo);
-
         // Control de animaciones
         if (move == 0)
         {
@@ -67,6 +67,10 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("Walk", false);
             animator.SetBool("Run", true);
+        }
+        else if (Input.GetKey(KeyCode.P)&& animator.GetBool("Corte") == false)
+        {
+            animator.SetBool("Corte", true);
         }
         else
         {
@@ -82,6 +86,10 @@ public class PlayerController : MonoBehaviour
         else if (move < 0 && mirandoDerecha)
         {
             Girar();
+        }
+        if (Input.GetKeyDown(KeyCode.P)) // Verifica si se presiona la tecla P
+        {
+            DestroyAlgaObject();
         }
     }
 
@@ -130,5 +138,17 @@ public class PlayerController : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
+    }
+    void DestroyAlgaObject()
+    {
+        GameObject alga = GameObject.FindWithTag("Alga"); // Busca un objeto con el tag "alga"
+        if (alga != null)
+        {
+            Destroy(alga); // Destruye el objeto encontrado
+        }
+    }
+    public void EndAttack()
+    {
+        animator.SetBool("Corte", false);
     }
 }
