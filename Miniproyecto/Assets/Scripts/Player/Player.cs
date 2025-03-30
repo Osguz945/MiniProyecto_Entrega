@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     private bool mirandoDerecha = true;
     private GameObject algaDetectada;
 
-    public AudioClip jumpClip; // Sonido del salto
+    public AudioClip jumpClip;
     private AudioSource audioSource;
 
 
