@@ -21,11 +21,18 @@ public class PlayerController : MonoBehaviour
     public Vector3 dimensionesCaja;
     public bool enSuelo;
     private bool mirandoDerecha = true;
+    private GameObject algaDetectada;
+
+    public AudioClip jumpClip; // Sonido del salto
+    private AudioSource audioSource;
+
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+
 
         if (PlayerPrefs.HasKey("Vidas"))
         {
@@ -54,30 +61,47 @@ public class PlayerController : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             animator.SetTrigger("Jump");
+            audioSource.PlayOneShot(jumpClip);
         }
 
         enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, queEsSuelo);
         // Control de animaciones
-        if (move == 0)
+
+        if (Input.GetKey(KeyCode.P) && (animator.GetBool("Corte") == false) && (move != 0) && (Input.GetKey(KeyCode.O)))
         {
-            animator.SetBool("Walk", false);
-            animator.SetBool("Run", false);
-        }
-        else if (Input.GetKey(KeyCode.O))
-        {
+            animator.SetBool("Corte", true);
             animator.SetBool("Walk", false);
             animator.SetBool("Run", true);
         }
-        else if (Input.GetKey(KeyCode.P)&& animator.GetBool("Corte") == false)
+        else if (Input.GetKey(KeyCode.P) && (animator.GetBool("Corte") == false) && (move != 0))
+        {
+            animator.SetBool("Corte", true);
+            animator.SetBool("Walk", true);
+            animator.SetBool("Run", false);
+        }
+        else if (Input.GetKey(KeyCode.P)&& (animator.GetBool("Corte") == false)&& (move == 0))
         {
             animator.SetBool("Corte", true);
             animator.SetBool("Walk", false);
             animator.SetBool("Run", false);
         }
-        else
+        else if (Input.GetKey(KeyCode.O)&&(move != 0))
+        {
+            animator.SetBool("Walk", false);
+            animator.SetBool("Run", true);
+            animator.SetBool("Corte", false);
+        }
+        else if (move != 0)
         {
             animator.SetBool("Walk", true);
             animator.SetBool("Run", false);
+            animator.SetBool("Corte", false);
+        }
+        else 
+        {
+            animator.SetBool("Walk", false);
+            animator.SetBool("Run", false);
+            animator.SetBool("Corte", false);
         }
 
         // Girar el personaje según la dirección del movimiento
@@ -89,9 +113,15 @@ public class PlayerController : MonoBehaviour
         {
             Girar();
         }
-        if (Input.GetKeyDown(KeyCode.P)) // Verifica si se presiona la tecla P
+        if (Input.GetKeyDown(KeyCode.P) && algaDetectada != null)
         {
-            DestroyAlgaObject();
+            Destroy(algaDetectada); 
+            algaDetectada = null;
+        }
+        if (Input.GetKeyDown(KeyCode.Space) && Mathf.Approximately(rb.velocity.y, 0))
+        {
+            rb.velocity = new Vector2(rb.velocity.x, 10f); // Fuerza del salto
+            audioSource.PlayOneShot(jumpClip); // Reproducir sonido
         }
     }
 
@@ -141,16 +171,23 @@ public class PlayerController : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
     }
-    void DestroyAlgaObject()
-    {
-        GameObject alga = GameObject.FindWithTag("Alga"); // Busca un objeto con el tag "alga"
-        if (alga != null)
-        {
-            Destroy(alga); // Destruye el objeto encontrado
-        }
-    }
     public void EndAttack()
     {
         animator.SetBool("Corte", false);
+    }
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Alga"))
+        {
+            algaDetectada = collision.gameObject; // Guarda la alga detectada
+        }
+    }
+
+    void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Alga"))
+        {
+            algaDetectada = null; // Borra la referencia cuando sale de la colisión
+        }
     }
 }
