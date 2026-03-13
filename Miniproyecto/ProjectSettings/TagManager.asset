@@ -54,11 +54,11 @@ TagManager:
   - name: suelo2
     uniqueID: 299577089
     locked: 0
-  - name: Main Character
-    uniqueID: 2244364849
-    locked: 0
   - name: Ground
     uniqueID: 2206891473
+    locked: 0
+  - name: Main Character
+    uniqueID: 2244364849
     locked: 0
   - name: Default
     uniqueID: 0
